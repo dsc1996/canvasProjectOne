@@ -26,10 +26,10 @@ var colorArray = [
     "#113f67",
 ]
 
-window.addEventListener("touchmove", 
+window.addEventListener("mousemove", 
     function (event){
-       ontouchmove.x = event.x;
-       ontouchmove.y = event.y;
+       mouse.x = event.x;
+       mouse.y = event.y;
 })
 
 window.addEventListener("resize", function(){
